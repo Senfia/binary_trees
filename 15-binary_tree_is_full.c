@@ -34,7 +34,7 @@ int binary_tree_check(const binary_tree_t *tree,
 		k = func(tree);
 		if (k == 0)
 			return (1);
-		if (k== 1)
+		if (k == 1)
 			return (0);
 		return (binary_tree_check(tree->left, func) &&
 			binary_tree_check(tree->right, func));
